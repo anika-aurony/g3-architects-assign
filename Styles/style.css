@@ -227,7 +227,7 @@ nav{
 footer{
     background-color: rgba(255, 144, 14, 0.1); 
     text-align: center;
-    margin: 0 150px;
+    margin: 0 20px;
     height: 50px;
     padding-top: 20px;
 }
@@ -259,12 +259,19 @@ footer{
         flex-direction: column;
     }
     .second-image button{
-        display: block;
+        position: static;
+        height: 35px;
+    }
+    .second-image .year{
+        font-size: 1rem;
     }
     .second-image img{
         width: 100%;
     }
-    
+    .second-part-box{
+        width: 100%;
+        height: auto;
+    }
     .first-part .pictures{
         grid-template-columns: repeat(1, 2fr);
     }
