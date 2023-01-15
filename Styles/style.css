@@ -3,7 +3,7 @@
 }
 
 
-
+/* Header CSS */
 #title{
     font-size:2rem;
     font-weight: 700;
@@ -58,6 +58,8 @@ nav{
     width: 100%
     
 } 
+
+/* First Section CSS */
 .first-part{
     display: flex;
     align-items: center;
@@ -172,11 +174,14 @@ nav{
     font-weight: 700;
 }
 
+/* Sponsor CSS */
+
 .sporsor-section, .facts{
     padding: 0 150px 30px;
     
 }
-.sponsor-text h3, .facts-text h3{
+/* CSS for h3 */
+.sponsor-text h3, .facts-text h3, .Extra-section h3{
     font: 1em Monospace;
     font-size: 1.5rem;
     font-weight: 700;
@@ -213,7 +218,7 @@ nav{
     transform: rotate(30deg) scale(1.5);
     transition: transform 2s;
 }
-
+/* Footer CSS */
 footer{
     background-color: rgba(255, 144, 14, 0.1); 
     text-align: center;
@@ -221,6 +226,25 @@ footer{
     height: 50px;
     padding-top: 20px;
 }
+/* Extra Part CSS */
+.Extra-section h3{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.extra-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.extra-container img{
+    margin-bottom: 10px;
+}
+.work-box{
+    text-align: center;
+    width: 20rem;
+}
+/* Website respponsive in small device */
 @media screen and (max-width: 576px) {
     
     .first-part, .second-part{
@@ -249,6 +273,11 @@ footer{
     .container{
         flex-direction: column;
         gap: 10px;
+    }
+
+    .extra-container{
+        flex-direction: column;
+        gap: 20px;
     }
     
 }
