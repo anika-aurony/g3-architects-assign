@@ -5,7 +5,8 @@
 
 /* Header CSS */
 #title{
-    font-size:2rem;
+    font: 1rem monospace;
+    font-size:1.5rem;
     font-weight: 700;
     padding-top: 0px;
 }
@@ -64,6 +65,7 @@ nav{
     display: flex;
     align-items: center;
     padding: 20px 200px;
+    margin-top: 70px;
     /* width: 50%; */
 }
 .first-part .pictures{
@@ -77,13 +79,13 @@ nav{
 }
 /* second-part css */
 .second-part{
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     justify-content:space-between;
     gap: 70px;
     align-items: center;
     padding: 0 200px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     /* width: 50%; */
 }
 
@@ -130,9 +132,10 @@ nav{
 .second-part-feature p{
     /* margin-right: 10px; */
     margin-bottom: 20px;
+    color: gray;
 }
 .second-part-box{
-    height: 4rem;
+    height: 4.5rem;
     width: 24rem;
     margin: 5px 20px 17px 0px;
     padding: 10px;
@@ -143,6 +146,8 @@ nav{
 }
 .second-part-box p{
     font-size: 1rem;
+    color: gray;
+    margin-top: 5px;
 }
 /* Feature Css */
 .feature-part{
@@ -177,7 +182,7 @@ nav{
 /* Sponsor CSS */
 
 .sporsor-section, .facts{
-    padding: 0 150px 30px;
+    padding: 0 150px 20px;
     
 }
 /* CSS for h3 */
@@ -204,7 +209,7 @@ nav{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .container .box{
@@ -230,15 +235,18 @@ footer{
 .Extra-section h3{
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 40px;
 
 }
 .extra-container{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    
 }
 .extra-container img{
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 .work-box{
     text-align: center;
@@ -279,5 +287,7 @@ footer{
         flex-direction: column;
         gap: 20px;
     }
-    
+    footer{
+        margin: auto;
+    }
 }
